@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Sensitive data
+*.tfvars
+*.env
+
+# IDE
+.idea/
+.vscode/
+EOF
